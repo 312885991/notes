@@ -1007,17 +1007,17 @@ public class UserController {
 
 #### 6.2、结果
 
-![](t1.png)
+![![](t1.png)](https://images.gitee.com/uploads/images/2019/0906/170102_1846b3d0_4771190.png "t1.png")
 
 ##### 6.2.1、导出结果
 
-![](t2.png)
+![![](t2.png)](https://images.gitee.com/uploads/images/2019/0906/170114_02a6e05c_4771190.png "t2.png")
 
-![](t3.png)
+![![](t3.png)](https://images.gitee.com/uploads/images/2019/0906/170131_813ec987_4771190.png "t3.png")
 
 ##### 6.2.2、导入结果
 
-![](t4.png)
+![![](t4.png)](https://images.gitee.com/uploads/images/2019/0906/170142_68cefc5a_4771190.png "t4.png")
 
 
 
