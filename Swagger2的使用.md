@@ -161,7 +161,7 @@ public class FileController {
 
 - 结果：
 
-![](p1.png)
+![![](p1.png)](https://images.gitee.com/uploads/images/2019/0906/170442_bb802d72_4771190.png "p1.png")
 
 
 
