@@ -311,11 +311,11 @@
 
 ### 5.1 将需要上传的项目打成 jar 包
 
-![](image/j1.png)
+![![](image/j1.png)](https://images.gitee.com/uploads/images/2019/0906/223945_aa5afc66_4771190.png "j1.png")
 
 ### 5.2、将 jar 包上传到 Linux 服务器上
 
-![](image/j2.png)
+![![](image/j2.png)](https://images.gitee.com/uploads/images/2019/0906/223954_904426c6_4771190.png "j2.png")
 
 ### 5.3、利用 putty 工具连接上 Linux 服务器
 
@@ -332,7 +332,7 @@
 - `nohup java -jar app.jar >app-log.txt &`
 
 
-![](image/j3.png)
+![![](image/j3.png)](https://images.gitee.com/uploads/images/2019/0906/224003_4efb6a1a_4771190.png "j3.png")
 
 
 
