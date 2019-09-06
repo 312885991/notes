@@ -7,13 +7,13 @@
 <b style='color:red'>相关压缩包百度网盘下载地址：</b>[百度网盘](https://pan.baidu.com/s/1LFZzxuFsyVSoV_LbjYgXlA
 )  提取码: **8h91**
 
-![](image/t1.png)
+![![](image/t1.png)](https://images.gitee.com/uploads/images/2019/0906/203042_3dd20b6b_4771190.png "t1.png")
 
 
 
 > 利用 putty 工具连接到 远程服务器
 
-![](image/t2.png)
+![![](image/t2.png)](https://images.gitee.com/uploads/images/2019/0906/203052_fd067ee9_4771190.png "t2.png")
 
 ## 一、JDK 安装与配置
 
@@ -25,7 +25,7 @@
 
   解压后的文件：
 
-  ![](image/t3.png)
+  ![![](image/t3.png)](https://images.gitee.com/uploads/images/2019/0906/203109_1a1b6f7f_4771190.png "t3.png")
 
 ### 1.2、配置环境变量
 
@@ -49,7 +49,7 @@
 
 - `java -version`  查看是否配置成功?
 
-  ![](image/t4.png)
+  ![![](image/t4.png)](https://images.gitee.com/uploads/images/2019/0906/203119_8891ccda_4771190.png "t4.png")
 
 
 
@@ -63,7 +63,7 @@
 
   解压后的文件：
 
-  ![](image/m1.png)
+  ![![](image/m1.png)](https://images.gitee.com/uploads/images/2019/0906/203129_0c71357c_4771190.png "m1.png")
 
 ### 2.2、安装与配置
 
@@ -87,7 +87,7 @@
 
   `rpm -qa | grep mysql`
 
-  ![](image/m2.png)
+  ![![](image/m2.png)](https://images.gitee.com/uploads/images/2019/0906/203139_2562a6fe_4771190.png "m2.png")
 
 - 初始化
 
@@ -106,15 +106,15 @@
   cat /var/log/mysqld.log | grep password
   ```
 
-  ![](image/m3.png)
+  ![![](image/m3.png)](https://images.gitee.com/uploads/images/2019/0906/203148_8c549e65_4771190.png "m3.png")
 
 -   登录 `mysql -u root -p`
 
-  ![](m4.png)
+  ![![](m4.png)](https://images.gitee.com/uploads/images/2019/0906/203157_7056576a_4771190.png "m4.png")
 
 - 第一次登录之后 必须修改密码 `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';`
 
-  ![](image/m5.png)
+  ![![](image/m5.png)](https://images.gitee.com/uploads/images/2019/0906/203206_3bc1a19c_4771190.png "m5.png")
 
   - 说明是 所设置的密码不符合MySQL8.0默认的密码策略（刚开始设置的密码必须符合长度，且必须含有数字，小写或大写字母，特殊字符）
 
@@ -122,7 +122,7 @@
 
   - 再查看 mysql 初始的密码策略 `SHOW VARIABLES LIKE 'validate_password%'; `
 
-    ![](image/m6.png)
+    ![![](image/m6.png)](https://images.gitee.com/uploads/images/2019/0906/203216_6d9e69e1_4771190.png "m6.png")
 
   - 修改密码验证策略
 
@@ -133,7 +133,7 @@
 
   - 再进行修改密码 `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';`
 
-    ![](image/m7.png)
+    ![![](image/m7.png)](https://images.gitee.com/uploads/images/2019/0906/203226_e4f4c276_4771190.png "m7.png")
 
 ### 2.3、配置远程连接
 
@@ -141,11 +141,11 @@
 - 使用 mysql 数据库  `use mysql;`
 - 查看用户访问权限  ` select user,host from user;`
 
-![](image/m8.png)
+![![](image/m8.png)](https://images.gitee.com/uploads/images/2019/0906/203236_ec55a0f2_4771190.png "m8.png")
 
 - 修改访问权限 `update user set host='%' where user='root';`
 
-  ![](image/m9.png)
+  ![![](image/m9.png)](https://images.gitee.com/uploads/images/2019/0906/203245_65e310f2_4771190.png "m9.png")
 
 - 刷新权限  `flush privileges;`
 
@@ -153,13 +153,13 @@
 
 
 
-![](image/m10.png)
+![![](image/m10.png)](https://images.gitee.com/uploads/images/2019/0906/203256_9ee84c8d_4771190.png "m10.png")
 
 ### 2.5、BUG
 
 重启mysql服务时，出现以下情形：
 
-![](image/b1.png)
+![![](image/b1.png)](https://images.gitee.com/uploads/images/2019/0906/203304_442f0e74_4771190.png "b1.png")
 
 解决方法:
 
@@ -187,7 +187,7 @@
 
   解压后的文件：
 
-  ![](image/t5.png)
+  ![![](image/t5.png)](https://images.gitee.com/uploads/images/2019/0906/203322_6fb3511b_4771190.png "t5.png")
 
 ### 3.2、启动 Tomcat
 
@@ -197,7 +197,7 @@
 
   - 发现报错 Permission denied (权限不够)
 
-    ![](image/t6.png)
+    ![![](image/t6.png)](https://images.gitee.com/uploads/images/2019/0906/203335_58d90193_4771190.png "t6.png")
 
   - 解决方法
 
@@ -205,7 +205,7 @@
     - `chmod +x  *.sh`  对 *.sh 命令赋可执行的权限
     - 重新启动tomcat `cd /usr/local/tomcat/apache-tomcat-9.0.20/bin/`  `./startup.sh`
 
-    ![](image/t9.png)
+    ![![](image/t9.png)](https://images.gitee.com/uploads/images/2019/0906/203348_a65df9fa_4771190.png "t9.png")
 
 
 
@@ -213,7 +213,7 @@
 
 - 访问 `47.98.165.28:8080`  查看是否可以成功访问
 
-![](image/t10.png)
+![![](image/t10.png)](https://images.gitee.com/uploads/images/2019/0906/203402_886fae5b_4771190.png "t10.png")
 
 ## 四、Redis 安装
 
@@ -225,7 +225,7 @@
 
   解压后的文件：
 
-  ![](image/t11.png)
+  ![![](image/t11.png)](https://images.gitee.com/uploads/images/2019/0906/203415_92772efb_4771190.png "t11.png")
 
 ### 4.2、安装与配置
 
@@ -245,11 +245,11 @@
   - `cd /usr/local/redis/redis-5.0.5`
   - `make install` 执行安装命令 
 
-  ![](image/t12.png)
+  ![![](image/t12.png)](https://images.gitee.com/uploads/images/2019/0906/203426_a480f3b7_4771190.png "t12.png")
 
 - 执行基本配置 `./utils/install_server.sh`
 
-  ![](image/t13.png)
+  ![![](image/t13.png)](https://images.gitee.com/uploads/images/2019/0906/203435_e0a93162_4771190.png "t13.png")
 
 
 
@@ -257,13 +257,13 @@
 
 
 
-![](image/t14.png)
+![![](image/t14.png)](https://images.gitee.com/uploads/images/2019/0906/203444_c0cf32da_4771190.png "t14.png")
 
 - 查看开机启动列表
 
   - `chkconfig --list`
 
-  ![](image/t15.png)
+  ![![](image/t15.png)](https://images.gitee.com/uploads/images/2019/0906/203454_9aeaf132_4771190.png "t15.png")
 
   > 开启Redis服务操作通过/etc/init.d/redis_6379 start命令，也可通过（service redis_6379 start）
   >
@@ -277,15 +277,15 @@
 
     - 在 bind 127.0.0.1 前 加 “#” 将其注释掉 (<b style='color:red'>这样才能实现远程访问连接</b>)
 
-      ![](image/t16.png)
+      ![![](image/t16.png)](https://images.gitee.com/uploads/images/2019/0906/203505_66332c3d_4771190.png "t16.png")
 
     - 默认为保护模式，把 protected-mode yes 改为 protected-mode no
 
-      ![](image/t17.png)
+      ![![](image/t17.png)](https://images.gitee.com/uploads/images/2019/0906/203514_37c292d9_4771190.png "t17.png")
 
     - 将 requirepass foobared前的“#”去掉，密码改为你想要设置的密码
 
-      ![](image/t18.png)
+      ![![](image/t18.png)](https://images.gitee.com/uploads/images/2019/0906/203524_ae4979a0_4771190.png "t18.png")
 
     - :wq 保存
 
@@ -297,14 +297,14 @@
 
 - 关闭服务时，可能出现以下bug ，此时使用 `redis-cli -a 123456 shutdown` 命令解决
 
-![](image/bug.png)
-
+![![](image/bug.png)
+](https://images.gitee.com/uploads/images/2019/0906/203535_e368b481_4771190.png "bug.png")
  ### 4.4、测试连接
 
-![](image/t19.png)
+![![](image/t19.png)](https://images.gitee.com/uploads/images/2019/0906/203544_6393066c_4771190.png "t19.png")
 
-![](image/t20.png)
-
+![![](image/t20.png)
+](https://images.gitee.com/uploads/images/2019/0906/203553_20b33d46_4771190.png "t20.png")
 
 
 ## 五、SpringBoot 项目部署
