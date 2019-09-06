@@ -193,8 +193,7 @@
 
 在 以下界面中点击右下角  "Configure" 右侧的 三角形，随后点击 "Settings" 选项即可打开设置界面。
 
-![](idea01.png)
-
+![idea01.png](https://images.gitee.com/uploads/images/2019/0906/191601_32c227f7_4771190.png "idea01.png")
 
 
 #### 3.1.2、 设置软件主题和字体
@@ -203,8 +202,8 @@
 
 在 "Settings for New Projects" 窗口中选择  "Appearance & Behavior" 下面的 "Appearance"。
 
-![](idea02.png)
-
+![![](idea02.png)
+](https://images.gitee.com/uploads/images/2019/0906/191507_ec83750f_4771190.png "idea02.png")
 
 
 > 在右侧的  "Theme" 选项中可以通过 下拉列表来切换 主题。
@@ -221,7 +220,7 @@
 
 在 "Settings for New Projects" 窗口中选择 "**Build , Execution , Deployment**" 下方的 "**Build Tools**" 下方的 "**Maven**"，如下图所示:
 
-![](idea03.png)
+![![](idea03.png)](https://images.gitee.com/uploads/images/2019/0906/191624_2d0af42a_4771190.png "idea03.png")
 
 
 
@@ -237,7 +236,7 @@
 
 修改后的界面如下图所示:
 
-![](idea04.png)
+![![](idea04.png)](https://images.gitee.com/uploads/images/2019/0906/191634_1c48d25b_4771190.png "idea04.png")
 
 
 
@@ -253,13 +252,13 @@
 
 在 欢迎界面 ( 下图 ) 中点击 "Create New Project" 后即可弹出 "New Project" 界面。
 
-![](idea01.png)
+![![](idea01.png)](https://images.gitee.com/uploads/images/2019/0906/191643_f309f57c_4771190.png "idea01.png")
 
 
 
  "New Project" 界面:
 
-![](idea05.png)
+![![](idea05.png)](https://images.gitee.com/uploads/images/2019/0906/191652_5237982f_4771190.png "idea05.png")
 
 
 
@@ -271,7 +270,7 @@
 
 在 "New Project" 界面左侧列表中选择 `maven` :
 
-![](idea06.png)
+![![](idea06.png)](https://images.gitee.com/uploads/images/2019/0906/191701_eeda6937_4771190.png "idea06.png")
 
 
 
@@ -291,11 +290,11 @@
 
 然后选择 "**org.apache.maven.archetypes:maven-archetype-webapp**" ，如下图所示:
 
-![idea07](idea07.png)
+![![idea07](idea07.png)](https://images.gitee.com/uploads/images/2019/0906/191711_4a817412_4771190.png "idea07.png")
 
 随后点击 "**Next**" 按钮，进入下一步 ( 如下图所示 )。
 
-![](idea08.png)
+![![](idea08.png)](https://images.gitee.com/uploads/images/2019/0906/191720_ffcbbc92_4771190.png "idea08.png")
 
 在这里，分别输入 GroupId 、ArtifactId 
 
@@ -304,15 +303,15 @@
 
 直接点击  "**Next**" 按钮，进入下一步 ( 如下图所示 )。
 
-![](idea09.png)
+![![](idea09.png)](https://images.gitee.com/uploads/images/2019/0906/191728_f620e13e_4771190.png "idea09.png")
 
 继续点击 "**Next**"，进入下一步( 如下图所示 )
 
-![](idea10.png)
+![![](idea10.png)](https://images.gitee.com/uploads/images/2019/0906/191734_6851a857_4771190.png "idea10.png")
 
 这里，根据约定，应该将 "**Project location**" 更改为 **X:\IdeaProjects\hello** ，修改的界面后如下图所示:
 
-![](idea11.png)
+![![](idea11.png)](https://images.gitee.com/uploads/images/2019/0906/191752_1d48dca0_4771190.png "idea11.png")
 
 最后，点击 "**Finish**" 即可开始创建工程。
 
@@ -320,7 +319,7 @@
 
 在工程构建过程中，IDEA软件界面右下角可能提示:
 
-![](idea12.png)
+![![](idea12.png)](https://images.gitee.com/uploads/images/2019/0906/191742_1268e73e_4771190.png "idea12.png")
 
 
 
@@ -330,7 +329,7 @@
 
 随后进入热烈的项目构建过程中，最后在软件界面下方看到 "**BUILD SUCCESS**" 即表示项目构建成功。
 
-![](idea13.png)
+![![](idea13.png)](https://images.gitee.com/uploads/images/2019/0906/191800_4163f85b_4771190.png "idea13.png")
 
 
 
