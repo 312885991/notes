@@ -2,7 +2,7 @@
 
 ### 一、创建相应的包，包结构如图所示
 
-![](image/p1.png)
+![![](image/p1.png)](https://images.gitee.com/uploads/images/2019/0906/171406_590b32ea_4771190.png "p1.png")
 
 ### 二、创建数据库 `yonyou` 
 
@@ -139,7 +139,7 @@ public class ConnectionTest {
 
 - 连接成功
 
-![](image/p2.png)
+![![](image/p2.png)](https://images.gitee.com/uploads/images/2019/0906/171424_119b6d44_4771190.png "p2.png")
 
 
 
@@ -607,7 +607,7 @@ public void testQuery() throws SQLException {
 
 - 测试结果：
 
-![](image/p3.png)
+![![](image/p3.png)](https://images.gitee.com/uploads/images/2019/0906/171447_250cb27e_4771190.png "p3.png")
 
 #### 2、测试插入
 
