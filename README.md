@@ -1,37 +1,25 @@
 # note
 
 #### 介绍
-学习笔记
+这里是学习后总结出来的一些实用笔记
 
-#### 软件架构
-软件架构说明
+#### 总体笔记架构
+```
+notes
+    |--Excel表格的导入与导出
+    |--Swagger2的使用
+    |--Linux服务器安装JDK等
+    |--阿里云短信接口
+    |--分页查询
+    |--数据库设计规范
+    |--微信小程序-云开发
+    |--Maven环境配置
+    |--快速构建SpringBoot项目
+    |--Jdcb实现增删改查
+```
 
+#### 补充
 
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 邮箱：312885991@qq.com
+2. 微信号：18879676724
+3. 如笔记之中存在错误，烦请及时告知！
