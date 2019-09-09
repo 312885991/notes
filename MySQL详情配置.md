@@ -3,7 +3,7 @@
 ####	1.MySQL8.0下载
 
 - 官网下载地址  [MySQL8.0下载]([https://dev.mysql.com/downloads/mysql](https://dev.mysql.com/downloads/mysql/))  （官网下载速度慢的不行，这里可以去我的网盘进行下载）
-- 网盘下载地址  https://pan.baidu.com/s/1ibmYHTu1CPq8WWu8VBUByA   提取码  `hiav`   
+- 网盘下载地址  [MySQL8.0下载](https://pan.baidu.com/s/1ibmYHTu1CPq8WWu8VBUByA)   提取码  `hiav`   
 
 #### 2.MySQL8.0解压
 
@@ -43,7 +43,7 @@
 
 4. 配置环境变量
 
-   ![](mysql-01.png)
+   ![![](mysql-01.png)](https://images.gitee.com/uploads/images/2019/0909/164445_0f377297_4771190.png "mysql-01.png")
 
 5. 安装 `mysql8.0` 服务，并初始化
 
@@ -71,7 +71,7 @@
 
    1. 在 `D:\databases\mysql-8.0.15-winx64\data` 目录下找到后缀为 `.err` 文件，在该文件中查找刚才系统为 `root` 用户生成的随机密码，本人的如下：
 
-      ![](mysql-02.png)
+      ![![](mysql-02.png)](https://images.gitee.com/uploads/images/2019/0909/164503_3a25e38c_4771190.png "mysql-02.png")
 
    2. 使用查找到的密码登录 `mysql8.0`：
 
@@ -79,7 +79,7 @@
       mysql -u root -p
       ```
 
-      ![](mysql-04.png)
+      ![![](mysql-04.png)](https://images.gitee.com/uploads/images/2019/0909/164514_9f189582_4771190.png "mysql-04.png")
 
    3. 登陆成功后，修改密码：
 
@@ -87,11 +87,11 @@
       ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '你的密码';
       ```
 
-      ![](mysql-05.png)
+      ![![](mysql-05.png)](https://images.gitee.com/uploads/images/2019/0909/164523_7d0b01dc_4771190.png "mysql-05.png")
 
    4. 修改成功
 
-      ![](mysql-06.png)
+      ![![](mysql-06.png)](https://images.gitee.com/uploads/images/2019/0909/164531_bbd11dc7_4771190.png "mysql-06.png")
    
       
 
@@ -101,7 +101,7 @@
 
    2. 测试连接
 
-      ![](mysql-07.png)
+      ![](https://images.gitee.com/uploads/images/2019/0909/164541_e6f63999_4771190.png "mysql-07.png")
 
       
 
