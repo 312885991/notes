@@ -54,6 +54,7 @@
       ```ini
       mysqld --install MySQL --defaults-file="D:\databases\mysql-8.0.15-winx64\my.ini"
       ```
+      - 如果MySQL服务已经存在，则使用 `sc delete mysql` 命令删除已存在的MySQL服务
 
    3. 执行初始化命令：
 
