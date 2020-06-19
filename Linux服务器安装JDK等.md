@@ -1,4 +1,4 @@
-# Linux服务器上安装 JDK、MySQL、Tomcat
+# Linux服务器上安装 JDK、MySQL、Tomcat、Redis、Nginx
 
 
 
@@ -307,19 +307,65 @@
 ](https://images.gitee.com/uploads/images/2019/0906/203553_20b33d46_4771190.png "t20.png")
 
 
-## 五、SpringBoot 项目部署
+## 五、Nginx安装
 
-### 5.1 将需要上传的项目打成 jar 包
+### 5.1 	安装依赖
+
+- 在安装nginx前首先要确认系统中是否安装了 **gcc、pcre-devel、zlib-devel、openssl-devel** 依赖
+- 使用  **yum** 一键安装依赖
+
+```
+yum -y install gcc pcre-devel zlib-devel openssl openssl-devel
+```
+
+### 5.2  下载nginx压缩包
+
+- 下载地址：<https://nginx.org/download/>
+- 将下载的  **nginx-1.9.9.tar.gz** 压缩包上传至服务器 `/usr/local`目录
+
+### 5.3   解压安装
+
+- 将压缩包解压至当前目录 `/usr/local/nginx-1.9.9`
+
+```
+tar -zxvf nginx-1.9.9.tar.gz
+```
+
+- cd 到 `/usr/local/nginx-1.9.9` 目录下，依次执行以下命令
+
+```
+./configure
+make
+make install
+```
+
+### 5.4   启动nginx
+
+- 执行完毕后，会生成 `/usr/local/nginx` 目录，进入该目录
+
+```
+cd /usr/local/nginx
+cd sbin
+./nginx ----启动nginx服务
+```
+
+### 5.5   访问nginx
+
+![](https://images.gitee.com/uploads/images/2020/0619/100728_c72a6dd3_4771190.png "n1.png")
+
+## 六、SpringBoot 项目部署
+
+### 6.1 将需要上传的项目打成 jar 包
 
 ![![](image/j1.png)](https://images.gitee.com/uploads/images/2019/0906/223945_aa5afc66_4771190.png "j1.png")
 
-### 5.2、将 jar 包上传到 Linux 服务器上
+### 6.2、将 jar 包上传到 Linux 服务器上
 
 ![![](image/j2.png)](https://images.gitee.com/uploads/images/2019/0906/223954_904426c6_4771190.png "j2.png")
 
-### 5.3、利用 putty 工具连接上 Linux 服务器
+### 6.3、利用 putty 工具连接上 Linux 服务器
 
-### 5.4、运行 jar 包（后台运行）
+### 6.4、运行 jar 包（后台运行）
 
 - `nohup java -jar eureka.jar >eureka-log.txt &`  后台运行 jar 包，并且将启动信息及后续日志 打印到 eureka-log.txt 文件中
 
@@ -336,7 +382,7 @@
 
 
 
-### 5.5 其他相关 Linux 命令
+### 6.5 其他相关 Linux 命令
 
 - `netstat -ant`  查看服务器所有被占用端口
 - `netstat -tunlp | grep 端口号 ` 验证某个端口号是否被占用
