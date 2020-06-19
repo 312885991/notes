@@ -334,7 +334,7 @@ tar -zxvf nginx-1.9.9.tar.gz
 - cd 到 `/usr/local/nginx-1.9.9` 目录下，依次执行以下命令
 
 ```
-./configure
+./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module
 make
 make install
 ```
