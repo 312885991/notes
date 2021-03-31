@@ -3,7 +3,7 @@
 ####	1.MySQL8.0下载
 
 - 官网下载地址  [MySQL8.0下载]([https://dev.mysql.com/downloads/mysql](https://dev.mysql.com/downloads/mysql/))  （官网下载速度慢的不行，这里可以去我的网盘进行下载）
-- 网盘下载地址  [MySQL8.0下载](https://pan.baidu.com/s/1ibmYHTu1CPq8WWu8VBUByA)   提取码  `hiav`   
+- 网盘下载地址  [MySQL8.0下载](链接：https://pan.baidu.com/s/1cIlvhPpThSSEuNcwmU63yQ)   提取码  `hiav`   
 
 #### 2.MySQL8.0解压
 
