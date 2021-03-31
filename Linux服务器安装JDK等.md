@@ -4,8 +4,9 @@
 
 > 将 JDK MySQL Tomcat Redis 压缩包上传到 Linux 服务器上
 
-<b style='color:red'>相关压缩包百度网盘下载地址：</b>[百度网盘](https://pan.baidu.com/s/1LFZzxuFsyVSoV_LbjYgXlA
-)  提取码: **8h91**
+<b style='color:red'>相关压缩包百度网盘下载地址：</b>[百度网盘](https://pan.baidu.com/s/1ET9AYErpjjwTEuo2YhYWNw
+)  提取码: **29up**
+
 
 ![![](image/t1.png)](https://images.gitee.com/uploads/images/2019/0906/203042_3dd20b6b_4771190.png "t1.png")
 
